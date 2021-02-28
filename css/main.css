@@ -1,0 +1,31 @@
+/* task 3 */
+ul#gallery {
+  display: flex;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.gallery-item {
+  list-style: none;
+  width: calc(100% / 3 - 30px);
+}
+
+.gallery-img {
+  width: 400px;
+  height: 300px;
+}
+
+/* task 6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
